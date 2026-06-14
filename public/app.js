@@ -82,6 +82,53 @@ function renderVariables(vars) {
     .join("");
 }
 
+function renderPlainSummary(data) {
+  const a = data.teams_display?.team_a || data.teams.team_a;
+  const b = data.teams_display?.team_b || data.teams.team_b;
+  const pA = data.probabilities.team_a_win;
+  const pD = data.probabilities.draw;
+  const pB = data.probabilities.team_b_win;
+  const favName = pA >= pB ? a : b;
+  const favProb = Math.max(pA, pB);
+  const otherName = pA >= pB ? b : a;
+  const margin = Math.abs(pA - pB);
+  const totalGoals = data.expected_goals.team_a + data.expected_goals.team_b;
+  const modal = `${data.most_likely_score.team_a}-${data.most_likely_score.team_b}`;
+  const upset = data.upset_probability;
+
+  let headline;
+  if (margin < 0.08) {
+    headline = `Partido muy parejo: ${a} y ${b} llegan casi igualados según el modelo.`;
+  } else {
+    const level =
+      favProb >= 0.6 ? "el favorito claro" : favProb >= 0.48 ? "el favorito" : "ligero favorito";
+    headline = `${favName} es ${level} (${fmtPct.format(favProb)} de ganar), pero no está decidido.`;
+  }
+
+  const goalsWord =
+    totalGoals < 2.2 ? "pocos goles" : totalGoals <= 2.9 ? "una cantidad normal de goles" : "bastantes goles";
+  const dataWord =
+    data.uncertainty === "alta"
+      ? "Hay pocos datos recientes de estos equipos, así que conviene tomarlo con cautela."
+      : data.uncertainty === "media"
+        ? "Hay una cantidad razonable de datos recientes de estos equipos."
+        : "Hay bastantes datos recientes, así que la estimación es más sólida.";
+
+  const items = [
+    `Probabilidad de ganar — ${a}: ${fmtPct.format(pA)} · Empate: ${fmtPct.format(pD)} · ${b}: ${fmtPct.format(pB)}.`,
+    `Se espera ${goalsWord} (≈${fmtNum.format(totalGoals)} en total). El marcador más probable es ${modal}.`,
+    `Qué tan seguro: confianza ${data.confidence || "media"}. Aun así, hay ${fmtPct.format(upset)} de probabilidad de que ${favName} NO gane — el fútbol da sorpresas.`,
+    dataWord,
+  ];
+
+  setText("summaryHeadline", headline);
+  document.querySelector("#summaryList").innerHTML = items.map((t) => `<li>${t}</li>`).join("");
+  setText(
+    "summaryCaveat",
+    "Esto son probabilidades calibradas, no certezas: una guía para hacerte una idea, no una predicción garantizada.",
+  );
+}
+
 function renderMatchReading(reading) {
   if (!reading) return;
   setText("readingDisclaimer", reading.disclaimer);
@@ -129,6 +176,7 @@ function renderPrediction(data) {
       `<div><span>${row.team_a}-${row.team_b}</span><strong>${fmtPct.format(row.probability)}</strong></div>`
     ))
     .join("");
+  renderPlainSummary(data);
   renderVariables(data.influential_variables);
   renderMatchReading(data.match_reading);
   const sourceWarning =
