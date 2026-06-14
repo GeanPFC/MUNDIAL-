@@ -3,10 +3,10 @@ G01,group,A,2026-06-11,Mexico City,Mexico,Mexico,South Africa,False,2,0,played
 G02,group,A,2026-06-11,Zapopan,Mexico,South Korea,Czech Republic,True,2,1,played
 G03,group,B,2026-06-12,Toronto,Canada,Canada,Bosnia and Herzegovina,False,1,1,played
 G04,group,D,2026-06-12,Inglewood,United States,United States,Paraguay,False,4,1,played
-G05,group,B,2026-06-13,Santa Clara,United States,Qatar,Switzerland,True,,,scheduled
-G06,group,C,2026-06-13,East Rutherford,United States,Brazil,Morocco,True,,,scheduled
-G07,group,C,2026-06-13,Foxborough,United States,Haiti,Scotland,True,,,scheduled
-G08,group,D,2026-06-13,Vancouver,Canada,Australia,Turkey,True,,,scheduled
+G05,group,B,2026-06-13,Santa Clara,United States,Qatar,Switzerland,True,1,1,played
+G06,group,C,2026-06-13,East Rutherford,United States,Brazil,Morocco,True,1,1,played
+G07,group,C,2026-06-13,Foxborough,United States,Haiti,Scotland,True,0,1,played
+G08,group,D,2026-06-13,Vancouver,Canada,Australia,Turkey,True,2,0,played
 G09,group,F,2026-06-14,Guadalupe,Mexico,Sweden,Tunisia,True,,,scheduled
 G10,group,F,2026-06-14,Arlington,United States,Netherlands,Japan,True,,,scheduled
 G11,group,E,2026-06-14,Houston,United States,Germany,Curaçao,True,,,scheduled
