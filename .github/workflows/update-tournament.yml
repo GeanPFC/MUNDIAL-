@@ -64,4 +64,5 @@ jobs:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
         run: |
           npm install -g vercel@latest
+          vercel pull --yes --environment=production --token="$VERCEL_TOKEN" --cwd vercel-app
           vercel deploy --prod --yes --token="$VERCEL_TOKEN" --cwd vercel-app
