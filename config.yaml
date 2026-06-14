@@ -1,0 +1,67 @@
+# Configuracion central del predictor Mundial 2026.
+# Todos los parametros reproducibles viven aqui. No hardcodear en codigo.
+
+data:
+  results_csv: data/raw/results.csv
+  shootouts_csv: data/raw/shootouts.csv
+  snapshot_dir: data/snapshots
+  wc2026_groups: data/raw/wc2026_groups.csv
+  wc2026_schedule: data/raw/wc2026_schedule.csv
+  wc2026_bracket: data/raw/wc2026_bracket.csv
+  third_place_table: data/raw/wc2026_third_place_allocation.csv
+  manifest: data/raw/source_manifest.json
+  pin_sha256: true
+
+model:
+  active: elo_live            # elo_pre_tournament | elo_live | ensemble
+  cutoff_date: "2026-06-13"
+  train_start: "2006-01-01"   # ventana de entrenamiento para backtests
+  elo:
+    initial_rating: 1500.0
+    k_factor: 20.0
+    home_advantage: 60.0
+    draw_base_rate: 0.27
+    draw_decay: 500.0
+    importance_scale: 0.25
+  poisson:
+    prior_matches: 8.0
+    max_goals: 10
+    # DECISION basada en evidencia: el backtest del repo mostro que Dixon-Coles fijo
+    # NO mejora el 1X2 (log loss 1.0514 vs 1.0445 de Poisson simple) y su ajuste de rho
+    # recorre todo el historico (lento). Por el gate de aceptacion se usa Poisson simple.
+    # Se puede reactivar (true) para experimentar con la realismo de marcadores bajos.
+    fit_dixon_coles: false
+    half_life_days: 1095.0
+  ensemble_weights:
+    elo: 1.0
+    poisson: 0.0
+    bayes: 0.0
+    ml: 0.0
+
+calibration:
+  # DECISION basada en evidencia (ver reports/calibration_experiment.csv y CHANGELOG):
+  # la temperatura entrenada en 2014/2018 (T=0.83) NO generaliza a 2022 -> empeora
+  # log loss/Brier/RPS/ECE. Por el gate de aceptacion, NO se aplica calibracion: el
+  # Elo live ya esta razonablemente calibrado (ECE 2022 ~0.07). El modulo existe y se
+  # re-evalua con cada nueva edicion; method=temperature lo reactiva para experimentar.
+  method: none                # none | temperature | platt | isotonic
+  fit_on: [2014, 2018]
+  evaluate_on: [2022]
+  applied_temperature: 1.0    # 1.0 = sin ajuste (decision actual)
+
+simulation:
+  n_simulations: 50000
+  random_seed: 2026
+  extra_time_penalty_model: elo_weighted   # elo_weighted | coin_flip
+  penalty_elo_scale: 0.9      # suaviza la ventaja por Elo en penales
+
+evaluation:
+  metrics: [log_loss, brier, rps, ece]
+  backtest_editions: [2014, 2018, 2022]
+  baselines: [baseline_rates, elo_features, poisson_simple]
+
+reporting:
+  output_dir: reports
+  uncertainty_disclaimer: >
+    Estas son probabilidades calibradas, no certezas. El futbol internacional tiene
+    alta varianza, planteles cambiantes y muestras pequenas. Usar como apoyo analitico.

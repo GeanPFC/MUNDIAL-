@@ -1,0 +1,69 @@
+{
+  "created_at_utc": "2026-06-13T18:19:18.708740+00:00",
+  "sources": [
+    {
+      "name": "international_results",
+      "url": "https://raw.githubusercontent.com/martj42/international_results/master/results.csv",
+      "filename": "results.csv",
+      "source_type": "match_results",
+      "notes": "Men's full international results. Snapshot before modeling."
+    },
+    {
+      "name": "international_shootouts",
+      "url": "https://raw.githubusercontent.com/martj42/international_results/master/shootouts.csv",
+      "filename": "shootouts.csv",
+      "source_type": "shootouts",
+      "notes": "Penalty shootout winners for knockout modeling."
+    },
+    {
+      "name": "international_goalscorers",
+      "url": "https://raw.githubusercontent.com/martj42/international_results/master/goalscorers.csv",
+      "filename": "goalscorers.csv",
+      "source_type": "goalscorers",
+      "notes": "Optional player-level scorer data; not required for base model."
+    }
+  ],
+  "manual_sources_required": [
+    {
+      "name": "fifa_mens_world_ranking",
+      "url": "https://inside.fifa.com/fifa-world-ranking/men",
+      "notes": "Save the official ranking table as a dated CSV snapshot before training final 2026 predictions."
+    },
+    {
+      "name": "fifa_world_cup_2026_schedule",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/match-schedule",
+      "notes": "Save official fixtures, venues, kickoff times, groups, and results as a dated CSV snapshot."
+    }
+  ],
+  "wc2026_snapshot": {
+    "updated_at_utc": "2026-06-14T01:29:22.328621+00:00",
+    "cutoff_date": "2026-06-13",
+    "files": {
+      "results_csv": {
+        "path": "results.csv",
+        "sha256": "d707e5527d2cb0e5a87925b56e9e4fc96513f1fba8b0ca704609d9e98889b8e1",
+        "bytes": 3724391
+      },
+      "wc2026_groups": {
+        "path": "wc2026_groups.csv",
+        "sha256": "72587e76c9f335c12184e16f70d5f039fc6460d3f306131ab3e59502aed95105",
+        "bytes": 1024
+      },
+      "wc2026_schedule": {
+        "path": "wc2026_schedule.csv",
+        "sha256": "f0697de6115bece9fd50063b872ddf93f42e96e774138b60492e125a3b8a7995",
+        "bytes": 5980
+      },
+      "wc2026_bracket": {
+        "path": "wc2026_bracket.csv",
+        "sha256": "1ae7e89c46ff12421f2b54f5fadc40855e4d25d718243be5cd3cc10fb7c60042",
+        "bytes": 1247
+      },
+      "third_place_table": {
+        "path": "wc2026_third_place_allocation.csv",
+        "sha256": "627eb4666293a2abf9c8a73d7bc0c40fa4a7c05e949d216a37e5ef6e3f558b00",
+        "bytes": 172
+      }
+    }
+  }
+}

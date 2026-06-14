@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>World Cup 2026 Predictor</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="topbar">
+        <div>
+          <p class="eyebrow">Modelo actualizado automáticamente</p>
+          <h1>Mundial 2026</h1>
+        </div>
+        <div class="status" id="dataStatus">Cargando datos...</div>
+      </section>
+
+      <p style="margin:0 0 4px">
+        <a href="/index.html" style="color:var(--blue);font-weight:700;text-decoration:none;margin-right:14px">Predictor de partido</a>
+        <a href="/tournament.html" style="color:var(--blue);font-weight:700;text-decoration:none">Probabilidades del torneo →</a>
+      </p>
+
+      <section class="workspace">
+        <form class="panel controls" id="predictForm">
+          <div class="field">
+            <label for="teamA">Equipo A</label>
+            <input id="teamA" list="teamsList" value="Argentina" autocomplete="off">
+          </div>
+
+          <button class="swap" type="button" id="swapTeams" title="Intercambiar equipos">⇄</button>
+
+          <div class="field">
+            <label for="teamB">Equipo B</label>
+            <input id="teamB" list="teamsList" value="France" autocomplete="off">
+          </div>
+
+          <div class="field compact">
+            <label for="asOf">Fecha corte</label>
+            <input id="asOf" type="date">
+          </div>
+
+          <label class="toggle">
+            <input id="neutral" type="checkbox" checked>
+            <span>Sede neutral</span>
+          </label>
+
+          <button class="primary" type="submit">Predecir</button>
+        </form>
+
+        <datalist id="teamsList"></datalist>
+
+        <section class="scoreline panel">
+          <div>
+            <p id="fixtureLabel" class="muted">Argentina vs France</p>
+            <div class="score" id="modalScore">--</div>
+          </div>
+          <div class="xg">
+            <div>
+              <span id="xgA">0.00</span>
+              <small>xG A</small>
+            </div>
+            <div>
+              <span id="xgB">0.00</span>
+              <small>xG B</small>
+            </div>
+          </div>
+        </section>
+
+        <section class="probabilities panel">
+          <div class="prob-row">
+            <div class="prob-label"><span id="labelA">Equipo A</span><strong id="probA">--</strong></div>
+            <div class="bar"><span id="barA"></span></div>
+          </div>
+          <div class="prob-row">
+            <div class="prob-label"><span>Empate</span><strong id="probD">--</strong></div>
+            <div class="bar"><span id="barD"></span></div>
+          </div>
+          <div class="prob-row">
+            <div class="prob-label"><span id="labelB">Equipo B</span><strong id="probB">--</strong></div>
+            <div class="bar"><span id="barB"></span></div>
+          </div>
+        </section>
+
+        <section class="detail-grid">
+          <article class="panel">
+            <h2>Intervalos</h2>
+            <div class="metric-list">
+              <div><span id="intervalAName">Equipo A</span><strong id="intervalA">--</strong></div>
+              <div><span id="intervalBName">Equipo B</span><strong id="intervalB">--</strong></div>
+              <div><span>Incertidumbre</span><strong id="uncertainty">--</strong></div>
+              <div><span>Confianza</span><strong id="confidence">--</strong></div>
+              <div><span>Prob. sorpresa</span><strong id="upset">--</strong></div>
+            </div>
+          </article>
+
+          <article class="panel">
+            <h2>Marcadores</h2>
+            <div class="metric-list compact-list" id="topScores"></div>
+          </article>
+
+          <article class="panel wide">
+            <h2>Variables principales</h2>
+            <div class="variables" id="variables"></div>
+          </article>
+
+          <article class="panel wide reading-panel">
+            <h2>Lectura analitica del partido</h2>
+            <p class="reading-disclaimer" id="readingDisclaimer">Lectura del modelo, no una prediccion garantizada.</p>
+            <div class="reading-grid">
+              <div class="reading-card">
+                <span>Favorito del modelo</span>
+                <strong id="favoriteLabel">--</strong>
+                <small id="favoriteMeta">--</small>
+                <p id="favoriteReason">--</p>
+              </div>
+              <div class="reading-card">
+                <span>Equilibrio</span>
+                <strong id="balanceLabel">--</strong>
+                <small id="balanceMeta">--</small>
+                <p id="balanceReason">--</p>
+              </div>
+              <div class="reading-card">
+                <span>Goles</span>
+                <strong id="goalsLabel">--</strong>
+                <small id="goalsMeta">--</small>
+                <p id="goalsReason">--</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="panel wide">
+            <h2>Backtesting</h2>
+            <div class="metric-list compact-list" id="backtestRows"></div>
+          </article>
+        </section>
+
+        <div class="message" id="message"></div>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

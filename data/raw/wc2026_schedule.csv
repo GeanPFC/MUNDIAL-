@@ -1,0 +1,73 @@
+match_id,stage,group,date,venue,country,home_team,away_team,neutral,home_score,away_score,status
+G01,group,A,2026-06-11,Mexico City,Mexico,Mexico,South Africa,False,2,0,played
+G02,group,A,2026-06-11,Zapopan,Mexico,South Korea,Czech Republic,True,2,1,played
+G03,group,B,2026-06-12,Toronto,Canada,Canada,Bosnia and Herzegovina,False,1,1,played
+G04,group,D,2026-06-12,Inglewood,United States,United States,Paraguay,False,4,1,played
+G05,group,B,2026-06-13,Santa Clara,United States,Qatar,Switzerland,True,,,scheduled
+G06,group,C,2026-06-13,East Rutherford,United States,Brazil,Morocco,True,,,scheduled
+G07,group,C,2026-06-13,Foxborough,United States,Haiti,Scotland,True,,,scheduled
+G08,group,D,2026-06-13,Vancouver,Canada,Australia,Turkey,True,,,scheduled
+G09,group,F,2026-06-14,Guadalupe,Mexico,Sweden,Tunisia,True,,,scheduled
+G10,group,F,2026-06-14,Arlington,United States,Netherlands,Japan,True,,,scheduled
+G11,group,E,2026-06-14,Houston,United States,Germany,Curaçao,True,,,scheduled
+G12,group,E,2026-06-14,Philadelphia,United States,Ivory Coast,Ecuador,True,,,scheduled
+G13,group,G,2026-06-15,Seattle,United States,Belgium,Egypt,True,,,scheduled
+G14,group,G,2026-06-15,Inglewood,United States,Iran,New Zealand,True,,,scheduled
+G15,group,H,2026-06-15,Atlanta,United States,Spain,Cape Verde,True,,,scheduled
+G16,group,H,2026-06-15,Miami Gardens,United States,Saudi Arabia,Uruguay,True,,,scheduled
+G17,group,J,2026-06-16,Santa Clara,United States,Austria,Jordan,True,,,scheduled
+G18,group,J,2026-06-16,Kansas City,United States,Argentina,Algeria,True,,,scheduled
+G19,group,I,2026-06-16,East Rutherford,United States,France,Senegal,True,,,scheduled
+G20,group,I,2026-06-16,Foxborough,United States,Iraq,Norway,True,,,scheduled
+G21,group,K,2026-06-17,Houston,United States,Portugal,DR Congo,True,,,scheduled
+G22,group,K,2026-06-17,Mexico City,Mexico,Uzbekistan,Colombia,True,,,scheduled
+G23,group,L,2026-06-17,Arlington,United States,England,Croatia,True,,,scheduled
+G24,group,L,2026-06-17,Toronto,Canada,Ghana,Panama,True,,,scheduled
+G25,group,A,2026-06-18,Atlanta,United States,Czech Republic,South Africa,True,,,scheduled
+G26,group,A,2026-06-18,Zapopan,Mexico,Mexico,South Korea,False,,,scheduled
+G27,group,B,2026-06-18,Inglewood,United States,Switzerland,Bosnia and Herzegovina,True,,,scheduled
+G28,group,B,2026-06-18,Vancouver,Canada,Canada,Qatar,False,,,scheduled
+G29,group,D,2026-06-19,Santa Clara,United States,Turkey,Paraguay,True,,,scheduled
+G30,group,C,2026-06-19,Foxborough,United States,Scotland,Morocco,True,,,scheduled
+G31,group,C,2026-06-19,Philadelphia,United States,Brazil,Haiti,True,,,scheduled
+G32,group,D,2026-06-19,Seattle,United States,United States,Australia,False,,,scheduled
+G33,group,F,2026-06-20,Houston,United States,Netherlands,Sweden,True,,,scheduled
+G34,group,F,2026-06-20,Guadalupe,Mexico,Tunisia,Japan,True,,,scheduled
+G35,group,E,2026-06-20,Toronto,Canada,Germany,Ivory Coast,True,,,scheduled
+G36,group,E,2026-06-20,Kansas City,United States,Ecuador,Curaçao,True,,,scheduled
+G37,group,G,2026-06-21,Inglewood,United States,Belgium,Iran,True,,,scheduled
+G38,group,G,2026-06-21,Vancouver,Canada,New Zealand,Egypt,True,,,scheduled
+G39,group,H,2026-06-21,Atlanta,United States,Spain,Saudi Arabia,True,,,scheduled
+G40,group,H,2026-06-21,Miami Gardens,United States,Uruguay,Cape Verde,True,,,scheduled
+G41,group,I,2026-06-22,Philadelphia,United States,France,Iraq,True,,,scheduled
+G42,group,I,2026-06-22,East Rutherford,United States,Norway,Senegal,True,,,scheduled
+G43,group,J,2026-06-22,Arlington,United States,Argentina,Austria,True,,,scheduled
+G44,group,J,2026-06-22,Santa Clara,United States,Jordan,Algeria,True,,,scheduled
+G45,group,K,2026-06-23,Houston,United States,Portugal,Uzbekistan,True,,,scheduled
+G46,group,K,2026-06-23,Zapopan,Mexico,Colombia,DR Congo,True,,,scheduled
+G47,group,L,2026-06-23,Foxborough,United States,England,Ghana,True,,,scheduled
+G48,group,L,2026-06-23,Toronto,Canada,Panama,Croatia,True,,,scheduled
+G49,group,C,2026-06-24,Atlanta,United States,Morocco,Haiti,True,,,scheduled
+G50,group,B,2026-06-24,Seattle,United States,Bosnia and Herzegovina,Qatar,True,,,scheduled
+G51,group,C,2026-06-24,Miami Gardens,United States,Scotland,Brazil,True,,,scheduled
+G52,group,A,2026-06-24,Guadalupe,Mexico,South Africa,South Korea,True,,,scheduled
+G53,group,A,2026-06-24,Mexico City,Mexico,Mexico,Czech Republic,False,,,scheduled
+G54,group,B,2026-06-24,Vancouver,Canada,Canada,Switzerland,False,,,scheduled
+G55,group,D,2026-06-25,Inglewood,United States,United States,Turkey,False,,,scheduled
+G56,group,D,2026-06-25,Santa Clara,United States,Paraguay,Australia,True,,,scheduled
+G57,group,E,2026-06-25,Philadelphia,United States,Curaçao,Ivory Coast,True,,,scheduled
+G58,group,E,2026-06-25,East Rutherford,United States,Ecuador,Germany,True,,,scheduled
+G59,group,F,2026-06-25,Arlington,United States,Japan,Sweden,True,,,scheduled
+G60,group,F,2026-06-25,Kansas City,United States,Tunisia,Netherlands,True,,,scheduled
+G61,group,I,2026-06-26,Toronto,Canada,Senegal,Iraq,True,,,scheduled
+G62,group,I,2026-06-26,Foxborough,United States,Norway,France,True,,,scheduled
+G63,group,H,2026-06-26,Zapopan,Mexico,Uruguay,Spain,True,,,scheduled
+G64,group,G,2026-06-26,Vancouver,Canada,New Zealand,Belgium,True,,,scheduled
+G65,group,G,2026-06-26,Seattle,United States,Egypt,Iran,True,,,scheduled
+G66,group,H,2026-06-26,Houston,United States,Cape Verde,Saudi Arabia,True,,,scheduled
+G67,group,L,2026-06-27,East Rutherford,United States,Panama,England,True,,,scheduled
+G68,group,J,2026-06-27,Kansas City,United States,Algeria,Austria,True,,,scheduled
+G69,group,J,2026-06-27,Arlington,United States,Jordan,Argentina,True,,,scheduled
+G70,group,K,2026-06-27,Miami Gardens,United States,Colombia,Portugal,True,,,scheduled
+G71,group,K,2026-06-27,Atlanta,United States,DR Congo,Uzbekistan,True,,,scheduled
+G72,group,L,2026-06-27,Philadelphia,United States,Croatia,Ghana,True,,,scheduled

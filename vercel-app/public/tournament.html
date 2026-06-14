@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mundial 2026 — Probabilidades del torneo</title>
+    <link rel="stylesheet" href="/styles.css">
+    <style>
+      .tbl { width: 100%; border-collapse: collapse; font-size: 14px; }
+      .tbl th, .tbl td { padding: 7px 9px; border-bottom: 1px solid #e3eae7; text-align: right; }
+      .tbl th:first-child, .tbl td:first-child { text-align: left; }
+      .tbl thead th { color: var(--text-soft); font-size: 12px; text-transform: uppercase; }
+      .tbl tbody tr:hover { background: #f6f8f7; }
+      .bar-cell { position: relative; }
+      .bar-cell .fill { position: absolute; left: 0; top: 0; bottom: 0; background: rgba(25,122,82,0.14); z-index: 0; }
+      .bar-cell span { position: relative; z-index: 1; }
+      .groups-grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+      .nav-links a { color: var(--blue); font-weight: 700; text-decoration: none; margin-right: 14px; }
+      .meta { color: var(--text-soft); font-size: 13px; }
+    </style>
+  </head>
+  <body>
+    <main class="shell">
+      <section class="topbar">
+        <div>
+          <p class="eyebrow">Simulacion Monte Carlo · modelo elo_live_v3</p>
+          <h1>Mundial 2026 — Probabilidades del torneo</h1>
+        </div>
+        <div class="status" id="meta">Cargando...</div>
+      </section>
+
+      <p class="nav-links">
+        <a href="/index.html">← Predictor de partido</a>
+        <a href="/tournament.html">Probabilidades del torneo</a>
+      </p>
+
+      <section class="workspace" style="display:block">
+        <article class="panel wide">
+          <h2>Probabilidad de ser campeon y de avanzar por ronda</h2>
+          <p class="meta" id="disclaimer"></p>
+          <div style="overflow-x:auto">
+            <table class="tbl" id="champTable">
+              <thead>
+                <tr><th>Equipo</th><th>Campeon</th><th>Final</th><th>Semis</th><th>Cuartos</th><th>Octavos</th><th>R32</th></tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </article>
+
+        <article class="panel wide">
+          <h2>Probabilidad de clasificar por grupo</h2>
+          <div class="groups-grid" id="groups"></div>
+        </article>
+      </section>
+
+      <div class="message" id="error"></div>
+    </main>
+
+    <script>
+      const pct = (x) => `${(x * 100).toFixed(1)}%`;
+      const fmtDate = (iso) => (iso || "").slice(0, 10);
+
+      function champRow(r, max) {
+        const w = max > 0 ? (r.p_champion / max) * 100 : 0;
+        return `<tr>
+          <td>${r.team}</td>
+          <td class="bar-cell"><div class="fill" style="width:${w}%"></div><span>${pct(r.p_champion)}</span></td>
+          <td>${pct(r.p_final)}</td>
+          <td>${pct(r.p_semifinal)}</td>
+          <td>${pct(r.p_quarterfinal)}</td>
+          <td>${pct(r.p_round_of_16)}</td>
+          <td>${pct(r.p_round_of_32)}</td>
+        </tr>`;
+      }
+
+      function groupCard(letter, rows) {
+        const body = rows
+          .sort((a, b) => b.p_qualify - a.p_qualify)
+          .map((r) => `<tr><td>${r.team}</td><td>${pct(r.p_1st)}</td><td>${pct(r.p_2nd)}</td><td><strong>${pct(r.p_qualify)}</strong></td></tr>`)
+          .join("");
+        return `<div class="panel">
+          <h3 style="margin:0 0 8px">Grupo ${letter}</h3>
+          <table class="tbl">
+            <thead><tr><th>Equipo</th><th>1.o</th><th>2.o</th><th>Clasifica</th></tr></thead>
+            <tbody>${body}</tbody>
+          </table>
+        </div>`;
+      }
+
+      async function load() {
+        try {
+          const res = await fetch("/tournament_snapshot.json", { cache: "no-store" });
+          if (!res.ok) throw new Error("No se pudo cargar el snapshot del torneo.");
+          const data = await res.json();
+          document.querySelector("#meta").textContent =
+            `Corte ${fmtDate(data.as_of)} · ${data.n_simulations.toLocaleString("es")} simulaciones · ${data.matches_played}/72 jugados · generado ${fmtDate(data.generated_at_utc)}`;
+          document.querySelector("#disclaimer").textContent = data.disclaimer || "";
+
+          const max = Math.max(...data.tournament.map((r) => r.p_champion));
+          document.querySelector("#champTable tbody").innerHTML =
+            data.tournament.filter((r) => r.p_round_of_32 > 0.001).map((r) => champRow(r, max)).join("");
+
+          document.querySelector("#groups").innerHTML =
+            Object.keys(data.groups).sort().map((g) => groupCard(g, data.groups[g])).join("");
+        } catch (err) {
+          document.querySelector("#error").textContent = err.message;
+        }
+      }
+      load();
+    </script>
+  </body>
+</html>

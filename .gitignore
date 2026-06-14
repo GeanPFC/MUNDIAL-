@@ -1,0 +1,17 @@
+# Vercel
+.vercel
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Node
+node_modules/
+
+# Sistema / temporales
+*.log
+.DS_Store
+Thumbs.db
