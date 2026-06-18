@@ -19,10 +19,10 @@ G17,group,J,2026-06-16,Santa Clara,United States,Austria,Jordan,True,3,1,played
 G18,group,J,2026-06-16,Kansas City,United States,Argentina,Algeria,True,3,0,played
 G19,group,I,2026-06-16,East Rutherford,United States,France,Senegal,True,3,1,played
 G20,group,I,2026-06-16,Foxborough,United States,Iraq,Norway,True,1,4,played
-G21,group,K,2026-06-17,Houston,United States,Portugal,DR Congo,True,,,scheduled
-G22,group,K,2026-06-17,Mexico City,Mexico,Uzbekistan,Colombia,True,,,scheduled
-G23,group,L,2026-06-17,Arlington,United States,England,Croatia,True,,,scheduled
-G24,group,L,2026-06-17,Toronto,Canada,Ghana,Panama,True,,,scheduled
+G21,group,K,2026-06-17,Houston,United States,Portugal,DR Congo,True,1,1,played
+G22,group,K,2026-06-17,Mexico City,Mexico,Uzbekistan,Colombia,True,1,3,played
+G23,group,L,2026-06-17,Arlington,United States,England,Croatia,True,4,2,played
+G24,group,L,2026-06-17,Toronto,Canada,Ghana,Panama,True,1,0,played
 G25,group,A,2026-06-18,Atlanta,United States,Czech Republic,South Africa,True,,,scheduled
 G26,group,A,2026-06-18,Zapopan,Mexico,Mexico,South Korea,False,,,scheduled
 G27,group,B,2026-06-18,Inglewood,United States,Switzerland,Bosnia and Herzegovina,True,,,scheduled
