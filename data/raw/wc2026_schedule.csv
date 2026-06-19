@@ -23,10 +23,10 @@ G21,group,K,2026-06-17,Houston,United States,Portugal,DR Congo,True,1,1,played
 G22,group,K,2026-06-17,Mexico City,Mexico,Uzbekistan,Colombia,True,1,3,played
 G23,group,L,2026-06-17,Arlington,United States,England,Croatia,True,4,2,played
 G24,group,L,2026-06-17,Toronto,Canada,Ghana,Panama,True,1,0,played
-G25,group,A,2026-06-18,Atlanta,United States,Czech Republic,South Africa,True,,,scheduled
-G26,group,A,2026-06-18,Zapopan,Mexico,Mexico,South Korea,False,,,scheduled
-G27,group,B,2026-06-18,Inglewood,United States,Switzerland,Bosnia and Herzegovina,True,,,scheduled
-G28,group,B,2026-06-18,Vancouver,Canada,Canada,Qatar,False,,,scheduled
+G25,group,A,2026-06-18,Atlanta,United States,Czech Republic,South Africa,True,1,1,played
+G26,group,A,2026-06-18,Zapopan,Mexico,Mexico,South Korea,False,1,0,played
+G27,group,B,2026-06-18,Inglewood,United States,Switzerland,Bosnia and Herzegovina,True,4,1,played
+G28,group,B,2026-06-18,Vancouver,Canada,Canada,Qatar,False,6,0,played
 G29,group,D,2026-06-19,Santa Clara,United States,Turkey,Paraguay,True,,,scheduled
 G30,group,C,2026-06-19,Foxborough,United States,Scotland,Morocco,True,,,scheduled
 G31,group,C,2026-06-19,Philadelphia,United States,Brazil,Haiti,True,,,scheduled
