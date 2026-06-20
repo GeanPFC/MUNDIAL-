@@ -1,379 +1,361 @@
 {
-  "generated_at_utc": "2026-06-19T12:49:11.090683+00:00",
-  "as_of": "2026-06-19",
+  "generated_at_utc": "2026-06-20T11:21:05.792309+00:00",
+  "as_of": "2026-06-20",
   "n_simulations": 50000,
   "model": "elo_live_v3",
-  "matches_played": 28,
+  "matches_played": 32,
   "disclaimer": "Probabilidades calibradas, no certezas. El futbol internacional tiene alta varianza; usar como apoyo analitico, no como prediccion garantizada.",
   "tournament": [
     {
       "team": "Argentina",
-      "p_champion": 0.244,
-      "p_final": 0.366,
-      "p_semifinal": 0.5169,
-      "p_quarterfinal": 0.6759,
-      "p_round_of_16": 0.7994,
+      "p_champion": 0.2424,
+      "p_final": 0.3645,
+      "p_semifinal": 0.5185,
+      "p_quarterfinal": 0.678,
+      "p_round_of_16": 0.8011,
       "p_round_of_32": 0.9994
     },
     {
       "team": "Spain",
-      "p_champion": 0.1756,
-      "p_final": 0.2865,
-      "p_semifinal": 0.4206,
-      "p_quarterfinal": 0.5337,
-      "p_round_of_16": 0.7032,
-      "p_round_of_32": 0.9641
+      "p_champion": 0.1765,
+      "p_final": 0.2883,
+      "p_semifinal": 0.4241,
+      "p_quarterfinal": 0.5326,
+      "p_round_of_16": 0.7037,
+      "p_round_of_32": 0.9657
     },
     {
       "team": "France",
-      "p_champion": 0.1265,
-      "p_final": 0.2268,
-      "p_semifinal": 0.381,
-      "p_quarterfinal": 0.5539,
-      "p_round_of_16": 0.7969,
-      "p_round_of_32": 0.9971
+      "p_champion": 0.127,
+      "p_final": 0.2287,
+      "p_semifinal": 0.3844,
+      "p_quarterfinal": 0.5553,
+      "p_round_of_16": 0.8036,
+      "p_round_of_32": 0.9972
     },
     {
       "team": "England",
-      "p_champion": 0.0752,
-      "p_final": 0.1453,
-      "p_semifinal": 0.3046,
-      "p_quarterfinal": 0.5033,
-      "p_round_of_16": 0.7597,
-      "p_round_of_32": 0.9983
+      "p_champion": 0.0722,
+      "p_final": 0.1407,
+      "p_semifinal": 0.2944,
+      "p_quarterfinal": 0.5082,
+      "p_round_of_16": 0.7588,
+      "p_round_of_32": 0.9984
     },
     {
       "team": "Brazil",
-      "p_champion": 0.062,
-      "p_final": 0.1257,
-      "p_semifinal": 0.2477,
-      "p_quarterfinal": 0.4284,
-      "p_round_of_16": 0.6278,
-      "p_round_of_32": 0.9681
+      "p_champion": 0.0702,
+      "p_final": 0.1356,
+      "p_semifinal": 0.2678,
+      "p_quarterfinal": 0.4492,
+      "p_round_of_16": 0.6637,
+      "p_round_of_32": 1.0
     },
     {
       "team": "Colombia",
-      "p_champion": 0.0618,
-      "p_final": 0.1291,
-      "p_semifinal": 0.2396,
-      "p_quarterfinal": 0.4984,
-      "p_round_of_16": 0.7563,
-      "p_round_of_32": 0.987
+      "p_champion": 0.0613,
+      "p_final": 0.1286,
+      "p_semifinal": 0.2444,
+      "p_quarterfinal": 0.5017,
+      "p_round_of_16": 0.7601,
+      "p_round_of_32": 0.9875
     },
     {
       "team": "Germany",
-      "p_champion": 0.0415,
-      "p_final": 0.0965,
-      "p_semifinal": 0.2008,
-      "p_quarterfinal": 0.3591,
-      "p_round_of_16": 0.7079,
-      "p_round_of_32": 0.9982
+      "p_champion": 0.041,
+      "p_final": 0.0957,
+      "p_semifinal": 0.2023,
+      "p_quarterfinal": 0.3586,
+      "p_round_of_16": 0.7166,
+      "p_round_of_32": 0.9983
     },
     {
       "team": "Portugal",
-      "p_champion": 0.0399,
-      "p_final": 0.091,
-      "p_semifinal": 0.1792,
-      "p_quarterfinal": 0.3298,
-      "p_round_of_16": 0.5883,
-      "p_round_of_32": 0.8473
-    },
-    {
-      "team": "Netherlands",
-      "p_champion": 0.026,
-      "p_final": 0.0617,
-      "p_semifinal": 0.1434,
-      "p_quarterfinal": 0.3033,
-      "p_round_of_16": 0.5015,
-      "p_round_of_32": 0.9298
-    },
-    {
-      "team": "Japan",
-      "p_champion": 0.0211,
-      "p_final": 0.0552,
-      "p_semifinal": 0.1296,
-      "p_quarterfinal": 0.2823,
-      "p_round_of_16": 0.4823,
-      "p_round_of_32": 0.9246
+      "p_champion": 0.0386,
+      "p_final": 0.0856,
+      "p_semifinal": 0.1729,
+      "p_quarterfinal": 0.3257,
+      "p_round_of_16": 0.5892,
+      "p_round_of_32": 0.8471
     },
     {
       "team": "Morocco",
-      "p_champion": 0.0177,
-      "p_final": 0.0483,
-      "p_semifinal": 0.1209,
-      "p_quarterfinal": 0.2722,
-      "p_round_of_16": 0.4889,
-      "p_round_of_32": 0.9337
+      "p_champion": 0.0246,
+      "p_final": 0.0665,
+      "p_semifinal": 0.1539,
+      "p_quarterfinal": 0.34,
+      "p_round_of_16": 0.547,
+      "p_round_of_32": 1.0
+    },
+    {
+      "team": "Netherlands",
+      "p_champion": 0.0234,
+      "p_final": 0.0578,
+      "p_semifinal": 0.1353,
+      "p_quarterfinal": 0.2796,
+      "p_round_of_16": 0.4619,
+      "p_round_of_32": 0.9313
+    },
+    {
+      "team": "Japan",
+      "p_champion": 0.0188,
+      "p_final": 0.0485,
+      "p_semifinal": 0.1175,
+      "p_quarterfinal": 0.2592,
+      "p_round_of_16": 0.4438,
+      "p_round_of_32": 0.924
     },
     {
       "team": "Belgium",
-      "p_champion": 0.016,
-      "p_final": 0.0446,
-      "p_semifinal": 0.1081,
-      "p_quarterfinal": 0.273,
-      "p_round_of_16": 0.5378,
-      "p_round_of_32": 0.8664
+      "p_champion": 0.0155,
+      "p_final": 0.0466,
+      "p_semifinal": 0.1088,
+      "p_quarterfinal": 0.2748,
+      "p_round_of_16": 0.542,
+      "p_round_of_32": 0.8679
     },
     {
       "team": "Mexico",
-      "p_champion": 0.0155,
-      "p_final": 0.0404,
-      "p_semifinal": 0.1174,
-      "p_quarterfinal": 0.2575,
-      "p_round_of_16": 0.6233,
+      "p_champion": 0.0151,
+      "p_final": 0.0415,
+      "p_semifinal": 0.1136,
+      "p_quarterfinal": 0.264,
+      "p_round_of_16": 0.642,
+      "p_round_of_32": 1.0
+    },
+    {
+      "team": "Switzerland",
+      "p_champion": 0.0091,
+      "p_final": 0.0293,
+      "p_semifinal": 0.0802,
+      "p_quarterfinal": 0.2412,
+      "p_round_of_16": 0.5993,
       "p_round_of_32": 1.0
     },
     {
       "team": "Ecuador",
-      "p_champion": 0.0097,
-      "p_final": 0.0281,
-      "p_semifinal": 0.0758,
-      "p_quarterfinal": 0.197,
-      "p_round_of_16": 0.3985,
-      "p_round_of_32": 0.7673
-    },
-    {
-      "team": "Switzerland",
-      "p_champion": 0.0089,
-      "p_final": 0.0309,
-      "p_semifinal": 0.0851,
-      "p_quarterfinal": 0.2518,
-      "p_round_of_16": 0.6083,
-      "p_round_of_32": 0.9999
+      "p_champion": 0.0088,
+      "p_final": 0.0269,
+      "p_semifinal": 0.0736,
+      "p_quarterfinal": 0.1942,
+      "p_round_of_16": 0.4011,
+      "p_round_of_32": 0.7757
     },
     {
       "team": "Croatia",
-      "p_champion": 0.0085,
-      "p_final": 0.0286,
-      "p_semifinal": 0.0723,
-      "p_quarterfinal": 0.1474,
-      "p_round_of_16": 0.3737,
-      "p_round_of_32": 0.8075
+      "p_champion": 0.0082,
+      "p_final": 0.0278,
+      "p_semifinal": 0.0726,
+      "p_quarterfinal": 0.1468,
+      "p_round_of_16": 0.3751,
+      "p_round_of_32": 0.8104
     },
     {
       "team": "Uruguay",
-      "p_champion": 0.0081,
-      "p_final": 0.0268,
-      "p_semifinal": 0.0706,
-      "p_quarterfinal": 0.1544,
-      "p_round_of_16": 0.2976,
-      "p_round_of_32": 0.7955
+      "p_champion": 0.0076,
+      "p_final": 0.0249,
+      "p_semifinal": 0.0688,
+      "p_quarterfinal": 0.1534,
+      "p_round_of_16": 0.2961,
+      "p_round_of_32": 0.7908
     },
     {
       "team": "Norway",
-      "p_champion": 0.0074,
-      "p_final": 0.0248,
-      "p_semifinal": 0.0795,
-      "p_quarterfinal": 0.2146,
-      "p_round_of_16": 0.5158,
-      "p_round_of_32": 0.9731
-    },
-    {
-      "team": "Australia",
-      "p_champion": 0.0064,
-      "p_final": 0.022,
-      "p_semifinal": 0.0671,
-      "p_quarterfinal": 0.1989,
-      "p_round_of_16": 0.551,
-      "p_round_of_32": 0.965
-    },
-    {
-      "team": "Austria",
-      "p_champion": 0.0046,
-      "p_final": 0.0183,
-      "p_semifinal": 0.0582,
-      "p_quarterfinal": 0.1474,
-      "p_round_of_16": 0.3306,
-      "p_round_of_32": 0.9311
-    },
-    {
-      "team": "Iran",
-      "p_champion": 0.0039,
-      "p_final": 0.0135,
-      "p_semifinal": 0.0408,
-      "p_quarterfinal": 0.1334,
-      "p_round_of_16": 0.3513,
-      "p_round_of_32": 0.6916
+      "p_champion": 0.0072,
+      "p_final": 0.0243,
+      "p_semifinal": 0.0772,
+      "p_quarterfinal": 0.2099,
+      "p_round_of_16": 0.5217,
+      "p_round_of_32": 0.9757
     },
     {
       "team": "United States",
-      "p_champion": 0.0037,
-      "p_final": 0.0167,
-      "p_semifinal": 0.0565,
-      "p_quarterfinal": 0.2059,
-      "p_round_of_16": 0.5522,
-      "p_round_of_32": 0.983
+      "p_champion": 0.0067,
+      "p_final": 0.0279,
+      "p_semifinal": 0.0876,
+      "p_quarterfinal": 0.3127,
+      "p_round_of_16": 0.6649,
+      "p_round_of_32": 1.0
+    },
+    {
+      "team": "Austria",
+      "p_champion": 0.0043,
+      "p_final": 0.0186,
+      "p_semifinal": 0.0574,
+      "p_quarterfinal": 0.1494,
+      "p_round_of_16": 0.3371,
+      "p_round_of_32": 0.9359
+    },
+    {
+      "team": "Iran",
+      "p_champion": 0.0036,
+      "p_final": 0.0131,
+      "p_semifinal": 0.0416,
+      "p_quarterfinal": 0.1306,
+      "p_round_of_16": 0.3552,
+      "p_round_of_32": 0.6874
+    },
+    {
+      "team": "Canada",
+      "p_champion": 0.0031,
+      "p_final": 0.0115,
+      "p_semifinal": 0.0413,
+      "p_quarterfinal": 0.164,
+      "p_round_of_16": 0.5116,
+      "p_round_of_32": 1.0
     },
     {
       "team": "South Korea",
       "p_champion": 0.003,
-      "p_final": 0.0138,
-      "p_semifinal": 0.0474,
-      "p_quarterfinal": 0.1534,
-      "p_round_of_16": 0.4272,
-      "p_round_of_32": 0.9269
+      "p_final": 0.013,
+      "p_semifinal": 0.0455,
+      "p_quarterfinal": 0.1554,
+      "p_round_of_16": 0.4327,
+      "p_round_of_32": 0.9353
     },
     {
-      "team": "Canada",
-      "p_champion": 0.0027,
-      "p_final": 0.012,
-      "p_semifinal": 0.0409,
-      "p_quarterfinal": 0.1658,
-      "p_round_of_16": 0.5113,
-      "p_round_of_32": 1.0
+      "team": "Australia",
+      "p_champion": 0.0025,
+      "p_final": 0.0103,
+      "p_semifinal": 0.0351,
+      "p_quarterfinal": 0.0996,
+      "p_round_of_16": 0.4203,
+      "p_round_of_32": 0.9087
     },
     {
       "team": "Senegal",
-      "p_champion": 0.0023,
-      "p_final": 0.0089,
+      "p_champion": 0.0024,
+      "p_final": 0.0087,
       "p_semifinal": 0.0305,
-      "p_quarterfinal": 0.1044,
-      "p_round_of_16": 0.2703,
-      "p_round_of_32": 0.603
+      "p_quarterfinal": 0.1033,
+      "p_round_of_16": 0.2715,
+      "p_round_of_32": 0.6068
     },
     {
       "team": "Algeria",
-      "p_champion": 0.0023,
-      "p_final": 0.0091,
-      "p_semifinal": 0.0293,
-      "p_quarterfinal": 0.088,
-      "p_round_of_16": 0.2072,
-      "p_round_of_32": 0.5666
-    },
-    {
-      "team": "Turkey",
-      "p_champion": 0.0017,
-      "p_final": 0.0065,
-      "p_semifinal": 0.0225,
-      "p_quarterfinal": 0.0626,
-      "p_round_of_16": 0.1952,
-      "p_round_of_32": 0.4656
+      "p_champion": 0.002,
+      "p_final": 0.0087,
+      "p_semifinal": 0.0284,
+      "p_quarterfinal": 0.0862,
+      "p_round_of_16": 0.2043,
+      "p_round_of_32": 0.567
     },
     {
       "team": "Ivory Coast",
-      "p_champion": 0.0015,
-      "p_final": 0.0073,
-      "p_semifinal": 0.0314,
-      "p_quarterfinal": 0.1112,
-      "p_round_of_16": 0.3831,
-      "p_round_of_32": 0.9717
-    },
-    {
-      "team": "Egypt",
-      "p_champion": 0.0008,
-      "p_final": 0.0038,
-      "p_semifinal": 0.0153,
-      "p_quarterfinal": 0.0671,
-      "p_round_of_16": 0.2603,
-      "p_round_of_32": 0.6818
-    },
-    {
-      "team": "Sweden",
-      "p_champion": 0.0007,
-      "p_final": 0.0036,
-      "p_semifinal": 0.0191,
-      "p_quarterfinal": 0.0838,
-      "p_round_of_16": 0.2744,
-      "p_round_of_32": 0.9411
-    },
-    {
-      "team": "Scotland",
-      "p_champion": 0.0005,
-      "p_final": 0.003,
-      "p_semifinal": 0.015,
-      "p_quarterfinal": 0.0611,
-      "p_round_of_16": 0.2103,
-      "p_round_of_32": 0.7651
+      "p_champion": 0.0014,
+      "p_final": 0.0071,
+      "p_semifinal": 0.0313,
+      "p_quarterfinal": 0.1089,
+      "p_round_of_16": 0.3901,
+      "p_round_of_32": 0.9732
     },
     {
       "team": "Paraguay",
-      "p_champion": 0.0005,
-      "p_final": 0.0023,
-      "p_semifinal": 0.0086,
-      "p_quarterfinal": 0.0287,
-      "p_round_of_16": 0.1073,
-      "p_round_of_32": 0.3025
+      "p_champion": 0.0014,
+      "p_final": 0.0061,
+      "p_semifinal": 0.0223,
+      "p_quarterfinal": 0.0674,
+      "p_round_of_16": 0.2716,
+      "p_round_of_32": 0.6973
     },
     {
-      "team": "Uzbekistan",
+      "team": "Sweden",
+      "p_champion": 0.0008,
+      "p_final": 0.0039,
+      "p_semifinal": 0.0179,
+      "p_quarterfinal": 0.0797,
+      "p_round_of_16": 0.2584,
+      "p_round_of_32": 0.944
+    },
+    {
+      "team": "Egypt",
+      "p_champion": 0.0005,
+      "p_final": 0.0032,
+      "p_semifinal": 0.0145,
+      "p_quarterfinal": 0.0661,
+      "p_round_of_16": 0.2609,
+      "p_round_of_32": 0.6779
+    },
+    {
+      "team": "Scotland",
+      "p_champion": 0.0003,
+      "p_final": 0.002,
+      "p_semifinal": 0.01,
+      "p_quarterfinal": 0.0435,
+      "p_round_of_16": 0.1764,
+      "p_round_of_32": 0.7218
+    },
+    {
+      "team": "Turkey",
       "p_champion": 0.0002,
-      "p_final": 0.0011,
-      "p_semifinal": 0.0054,
-      "p_quarterfinal": 0.0218,
-      "p_round_of_16": 0.0925,
-      "p_round_of_32": 0.3616
+      "p_final": 0.0007,
+      "p_semifinal": 0.003,
+      "p_quarterfinal": 0.0091,
+      "p_round_of_16": 0.0259,
+      "p_round_of_32": 0.094
     },
     {
       "team": "Czech Republic",
       "p_champion": 0.0001,
-      "p_final": 0.0004,
-      "p_semifinal": 0.002,
-      "p_quarterfinal": 0.0114,
-      "p_round_of_16": 0.0397,
-      "p_round_of_32": 0.1319
+      "p_final": 0.0003,
+      "p_semifinal": 0.0021,
+      "p_quarterfinal": 0.0111,
+      "p_round_of_16": 0.0393,
+      "p_round_of_32": 0.1299
+    },
+    {
+      "team": "Uzbekistan",
+      "p_champion": 0.0001,
+      "p_final": 0.001,
+      "p_semifinal": 0.0057,
+      "p_quarterfinal": 0.0231,
+      "p_round_of_16": 0.0939,
+      "p_round_of_32": 0.3673
+    },
+    {
+      "team": "DR Congo",
+      "p_champion": 0.0001,
+      "p_final": 0.0006,
+      "p_semifinal": 0.0033,
+      "p_quarterfinal": 0.0166,
+      "p_round_of_16": 0.0918,
+      "p_round_of_32": 0.4117
+    },
+    {
+      "team": "Saudi Arabia",
+      "p_champion": 0.0,
+      "p_final": 0.0002,
+      "p_semifinal": 0.0022,
+      "p_quarterfinal": 0.0143,
+      "p_round_of_16": 0.0612,
+      "p_round_of_32": 0.4741
+    },
+    {
+      "team": "South Africa",
+      "p_champion": 0.0,
+      "p_final": 0.0,
+      "p_semifinal": 0.0003,
+      "p_quarterfinal": 0.0037,
+      "p_round_of_16": 0.0311,
+      "p_round_of_32": 0.1635
     },
     {
       "team": "New Zealand",
-      "p_champion": 0.0001,
-      "p_final": 0.0004,
+      "p_champion": 0.0,
+      "p_final": 0.0003,
       "p_semifinal": 0.0026,
-      "p_quarterfinal": 0.0182,
-      "p_round_of_16": 0.1112,
-      "p_round_of_32": 0.417
+      "p_quarterfinal": 0.0197,
+      "p_round_of_16": 0.1167,
+      "p_round_of_32": 0.4172
     },
     {
       "team": "Bosnia and Herzegovina",
       "p_champion": 0.0,
       "p_final": 0.0001,
       "p_semifinal": 0.001,
-      "p_quarterfinal": 0.0123,
-      "p_round_of_16": 0.0774,
-      "p_round_of_32": 0.4403
-    },
-    {
-      "team": "Saudi Arabia",
-      "p_champion": 0.0,
-      "p_final": 0.0003,
-      "p_semifinal": 0.002,
-      "p_quarterfinal": 0.0139,
-      "p_round_of_16": 0.0631,
-      "p_round_of_32": 0.4773
-    },
-    {
-      "team": "Tunisia",
-      "p_champion": 0.0,
-      "p_final": 0.0001,
-      "p_semifinal": 0.0004,
-      "p_quarterfinal": 0.0028,
-      "p_round_of_16": 0.0149,
-      "p_round_of_32": 0.0724
-    },
-    {
-      "team": "DR Congo",
-      "p_champion": 0.0,
-      "p_final": 0.0003,
-      "p_semifinal": 0.0033,
-      "p_quarterfinal": 0.0169,
-      "p_round_of_16": 0.0933,
-      "p_round_of_32": 0.4133
-    },
-    {
-      "team": "Ghana",
-      "p_champion": 0.0,
-      "p_final": 0.0001,
-      "p_semifinal": 0.0013,
-      "p_quarterfinal": 0.0124,
-      "p_round_of_16": 0.0814,
-      "p_round_of_32": 0.6656
-    },
-    {
-      "team": "Panama",
-      "p_champion": 0.0,
-      "p_final": 0.0003,
-      "p_semifinal": 0.0023,
-      "p_quarterfinal": 0.01,
-      "p_round_of_16": 0.0414,
-      "p_round_of_32": 0.1857
+      "p_quarterfinal": 0.0117,
+      "p_round_of_16": 0.0758,
+      "p_round_of_32": 0.4432
     },
     {
       "team": "Curaçao",
@@ -381,471 +363,489 @@
       "p_final": 0.0,
       "p_semifinal": 0.0,
       "p_quarterfinal": 0.0003,
-      "p_round_of_16": 0.0037,
-      "p_round_of_32": 0.0379
+      "p_round_of_16": 0.0033,
+      "p_round_of_32": 0.0352
     },
     {
       "team": "Cape Verde",
       "p_champion": 0.0,
-      "p_final": 0.0001,
-      "p_semifinal": 0.0013,
-      "p_quarterfinal": 0.0083,
-      "p_round_of_16": 0.0442,
-      "p_round_of_32": 0.4415
+      "p_final": 0.0002,
+      "p_semifinal": 0.0009,
+      "p_quarterfinal": 0.0081,
+      "p_round_of_16": 0.0437,
+      "p_round_of_32": 0.4449
+    },
+    {
+      "team": "Panama",
+      "p_champion": 0.0,
+      "p_final": 0.0004,
+      "p_semifinal": 0.0017,
+      "p_quarterfinal": 0.0095,
+      "p_round_of_16": 0.0398,
+      "p_round_of_32": 0.1852
     },
     {
       "team": "Haiti",
       "p_champion": 0.0,
       "p_final": 0.0,
-      "p_semifinal": 0.0002,
-      "p_quarterfinal": 0.0012,
-      "p_round_of_16": 0.0092,
-      "p_round_of_32": 0.0796
-    },
-    {
-      "team": "Jordan",
-      "p_champion": 0.0,
-      "p_final": 0.0001,
-      "p_semifinal": 0.0008,
-      "p_quarterfinal": 0.0073,
-      "p_round_of_16": 0.0311,
-      "p_round_of_32": 0.1386
+      "p_semifinal": 0.0,
+      "p_quarterfinal": 0.0,
+      "p_round_of_16": 0.001,
+      "p_round_of_32": 0.0091
     },
     {
       "team": "Iraq",
       "p_champion": 0.0,
       "p_final": 0.0001,
-      "p_semifinal": 0.0007,
-      "p_quarterfinal": 0.0062,
-      "p_round_of_16": 0.0271,
-      "p_round_of_32": 0.1083
+      "p_semifinal": 0.0006,
+      "p_quarterfinal": 0.0056,
+      "p_round_of_16": 0.0264,
+      "p_round_of_32": 0.1077
     },
     {
-      "team": "South Africa",
+      "team": "Ghana",
       "p_champion": 0.0,
       "p_final": 0.0001,
-      "p_semifinal": 0.0005,
-      "p_quarterfinal": 0.004,
-      "p_round_of_16": 0.0299,
-      "p_round_of_32": 0.1637
+      "p_semifinal": 0.0015,
+      "p_quarterfinal": 0.013,
+      "p_round_of_16": 0.0835,
+      "p_round_of_32": 0.6705
+    },
+    {
+      "team": "Jordan",
+      "p_champion": 0.0,
+      "p_final": 0.0001,
+      "p_semifinal": 0.001,
+      "p_quarterfinal": 0.008,
+      "p_round_of_16": 0.0328,
+      "p_round_of_32": 0.1419
     },
     {
       "team": "Qatar",
       "p_champion": 0.0,
       "p_final": 0.0,
-      "p_semifinal": 0.0003,
-      "p_quarterfinal": 0.0055,
-      "p_round_of_16": 0.0411,
-      "p_round_of_32": 0.313
+      "p_semifinal": 0.0004,
+      "p_quarterfinal": 0.0044,
+      "p_round_of_16": 0.0398,
+      "p_round_of_32": 0.31
+    },
+    {
+      "team": "Tunisia",
+      "p_champion": 0.0,
+      "p_final": 0.0,
+      "p_semifinal": 0.0002,
+      "p_quarterfinal": 0.0022,
+      "p_round_of_16": 0.0127,
+      "p_round_of_32": 0.0699
     }
   ],
   "groups": {
     "A": [
       {
         "team": "Mexico",
-        "p_1st": 0.9652,
-        "p_2nd": 0.0348,
+        "p_1st": 0.9632,
+        "p_2nd": 0.0368,
         "p_3rd": 0.0,
         "p_4th": 0.0,
         "p_qualify": 1.0
       },
       {
         "team": "South Korea",
-        "p_1st": 0.0348,
-        "p_2nd": 0.7854,
-        "p_3rd": 0.159,
-        "p_4th": 0.0208,
-        "p_qualify": 0.9269
+        "p_1st": 0.0368,
+        "p_2nd": 0.7832,
+        "p_3rd": 0.1599,
+        "p_4th": 0.0201,
+        "p_qualify": 0.9353
       },
       {
         "team": "South Africa",
         "p_1st": 0.0,
-        "p_2nd": 0.1453,
-        "p_3rd": 0.2342,
-        "p_4th": 0.6205,
-        "p_qualify": 0.1637
+        "p_2nd": 0.146,
+        "p_3rd": 0.2326,
+        "p_4th": 0.6214,
+        "p_qualify": 0.1635
       },
       {
         "team": "Czech Republic",
         "p_1st": 0.0,
-        "p_2nd": 0.0345,
-        "p_3rd": 0.6068,
-        "p_4th": 0.3586,
-        "p_qualify": 0.1319
+        "p_2nd": 0.034,
+        "p_3rd": 0.6075,
+        "p_4th": 0.3585,
+        "p_qualify": 0.1299
       }
     ],
     "B": [
       {
         "team": "Canada",
-        "p_1st": 0.6434,
-        "p_2nd": 0.3564,
+        "p_1st": 0.6384,
+        "p_2nd": 0.3616,
         "p_3rd": 0.0001,
         "p_4th": 0.0,
         "p_qualify": 1.0
       },
       {
         "team": "Switzerland",
-        "p_1st": 0.3566,
-        "p_2nd": 0.6313,
-        "p_3rd": 0.0121,
+        "p_1st": 0.3616,
+        "p_2nd": 0.6259,
+        "p_3rd": 0.0125,
         "p_4th": 0.0,
-        "p_qualify": 0.9999
+        "p_qualify": 1.0
       },
       {
         "team": "Bosnia and Herzegovina",
         "p_1st": 0.0,
-        "p_2nd": 0.0118,
-        "p_3rd": 0.6715,
-        "p_4th": 0.3166,
-        "p_qualify": 0.4403
+        "p_2nd": 0.012,
+        "p_3rd": 0.6758,
+        "p_4th": 0.3122,
+        "p_qualify": 0.4432
       },
       {
         "team": "Qatar",
         "p_1st": 0.0,
-        "p_2nd": 0.0004,
-        "p_3rd": 0.3162,
-        "p_4th": 0.6834,
-        "p_qualify": 0.313
+        "p_2nd": 0.0005,
+        "p_3rd": 0.3117,
+        "p_4th": 0.6878,
+        "p_qualify": 0.31
       }
     ],
     "C": [
       {
         "team": "Brazil",
-        "p_1st": 0.4908,
-        "p_2nd": 0.3619,
-        "p_3rd": 0.1296,
-        "p_4th": 0.0176,
-        "p_qualify": 0.9681
+        "p_1st": 0.7021,
+        "p_2nd": 0.1929,
+        "p_3rd": 0.1049,
+        "p_4th": 0.0,
+        "p_qualify": 1.0
       },
       {
         "team": "Morocco",
-        "p_1st": 0.3764,
-        "p_2nd": 0.3889,
-        "p_3rd": 0.1955,
-        "p_4th": 0.0392,
-        "p_qualify": 0.9337
+        "p_1st": 0.2715,
+        "p_2nd": 0.7147,
+        "p_3rd": 0.0138,
+        "p_4th": 0.0,
+        "p_qualify": 1.0
       },
       {
         "team": "Scotland",
-        "p_1st": 0.1282,
-        "p_2nd": 0.2391,
-        "p_3rd": 0.5869,
-        "p_4th": 0.0458,
-        "p_qualify": 0.7651
+        "p_1st": 0.0264,
+        "p_2nd": 0.0924,
+        "p_3rd": 0.8667,
+        "p_4th": 0.0145,
+        "p_qualify": 0.7218
       },
       {
         "team": "Haiti",
-        "p_1st": 0.0046,
-        "p_2nd": 0.0101,
-        "p_3rd": 0.088,
-        "p_4th": 0.8973,
-        "p_qualify": 0.0796
+        "p_1st": 0.0,
+        "p_2nd": 0.0,
+        "p_3rd": 0.0145,
+        "p_4th": 0.9855,
+        "p_qualify": 0.0091
       }
     ],
     "D": [
       {
         "team": "United States",
-        "p_1st": 0.5738,
-        "p_2nd": 0.2934,
-        "p_3rd": 0.1222,
-        "p_4th": 0.0106,
-        "p_qualify": 0.983
+        "p_1st": 0.9937,
+        "p_2nd": 0.0063,
+        "p_3rd": 0.0,
+        "p_4th": 0.0,
+        "p_qualify": 1.0
       },
       {
         "team": "Australia",
-        "p_1st": 0.3794,
-        "p_2nd": 0.4434,
-        "p_3rd": 0.1587,
-        "p_4th": 0.0185,
-        "p_qualify": 0.965
-      },
-      {
-        "team": "Turkey",
-        "p_1st": 0.0308,
-        "p_2nd": 0.1589,
-        "p_3rd": 0.425,
-        "p_4th": 0.3854,
-        "p_qualify": 0.4656
+        "p_1st": 0.0063,
+        "p_2nd": 0.6483,
+        "p_3rd": 0.3204,
+        "p_4th": 0.0251,
+        "p_qualify": 0.9087
       },
       {
         "team": "Paraguay",
-        "p_1st": 0.016,
-        "p_2nd": 0.1044,
-        "p_3rd": 0.2942,
-        "p_4th": 0.5855,
-        "p_qualify": 0.3025
+        "p_1st": 0.0,
+        "p_2nd": 0.3454,
+        "p_3rd": 0.549,
+        "p_4th": 0.1055,
+        "p_qualify": 0.6973
+      },
+      {
+        "team": "Turkey",
+        "p_1st": 0.0,
+        "p_2nd": 0.0,
+        "p_3rd": 0.1306,
+        "p_4th": 0.8694,
+        "p_qualify": 0.094
       }
     ],
     "E": [
       {
         "team": "Germany",
-        "p_1st": 0.7296,
-        "p_2nd": 0.1764,
-        "p_3rd": 0.0932,
-        "p_4th": 0.0008,
-        "p_qualify": 0.9982
+        "p_1st": 0.7294,
+        "p_2nd": 0.1756,
+        "p_3rd": 0.0941,
+        "p_4th": 0.0009,
+        "p_qualify": 0.9983
       },
       {
         "team": "Ivory Coast",
-        "p_1st": 0.2516,
-        "p_2nd": 0.5745,
-        "p_3rd": 0.1672,
-        "p_4th": 0.0067,
-        "p_qualify": 0.9717
+        "p_1st": 0.2518,
+        "p_2nd": 0.5728,
+        "p_3rd": 0.1691,
+        "p_4th": 0.0063,
+        "p_qualify": 0.9732
       },
       {
         "team": "Ecuador",
-        "p_1st": 0.0182,
-        "p_2nd": 0.2362,
-        "p_3rd": 0.6804,
-        "p_4th": 0.0653,
-        "p_qualify": 0.7673
+        "p_1st": 0.0181,
+        "p_2nd": 0.2394,
+        "p_3rd": 0.6799,
+        "p_4th": 0.0625,
+        "p_qualify": 0.7757
       },
       {
         "team": "Curaçao",
-        "p_1st": 0.0007,
-        "p_2nd": 0.013,
-        "p_3rd": 0.0592,
-        "p_4th": 0.9272,
-        "p_qualify": 0.0379
+        "p_1st": 0.0006,
+        "p_2nd": 0.0122,
+        "p_3rd": 0.0569,
+        "p_4th": 0.9303,
+        "p_qualify": 0.0352
       }
     ],
     "F": [
       {
         "team": "Sweden",
-        "p_1st": 0.2075,
-        "p_2nd": 0.2482,
-        "p_3rd": 0.5233,
-        "p_4th": 0.021,
-        "p_qualify": 0.9411
+        "p_1st": 0.2105,
+        "p_2nd": 0.2433,
+        "p_3rd": 0.525,
+        "p_4th": 0.0212,
+        "p_qualify": 0.944
       },
       {
         "team": "Netherlands",
-        "p_1st": 0.3994,
-        "p_2nd": 0.3678,
-        "p_3rd": 0.1882,
-        "p_4th": 0.0446,
-        "p_qualify": 0.9298
+        "p_1st": 0.398,
+        "p_2nd": 0.3724,
+        "p_3rd": 0.1861,
+        "p_4th": 0.0435,
+        "p_qualify": 0.9313
       },
       {
         "team": "Japan",
-        "p_1st": 0.3853,
-        "p_2nd": 0.3726,
-        "p_3rd": 0.194,
-        "p_4th": 0.0482,
-        "p_qualify": 0.9246
+        "p_1st": 0.3831,
+        "p_2nd": 0.3736,
+        "p_3rd": 0.1952,
+        "p_4th": 0.0481,
+        "p_qualify": 0.924
       },
       {
         "team": "Tunisia",
-        "p_1st": 0.0079,
-        "p_2nd": 0.0114,
-        "p_3rd": 0.0945,
-        "p_4th": 0.8863,
-        "p_qualify": 0.0724
+        "p_1st": 0.0084,
+        "p_2nd": 0.0108,
+        "p_3rd": 0.0936,
+        "p_4th": 0.8872,
+        "p_qualify": 0.0699
       }
     ],
     "G": [
       {
         "team": "Belgium",
-        "p_1st": 0.4557,
-        "p_2nd": 0.2612,
-        "p_3rd": 0.1831,
-        "p_4th": 0.1,
-        "p_qualify": 0.8664
+        "p_1st": 0.4615,
+        "p_2nd": 0.2569,
+        "p_3rd": 0.1827,
+        "p_4th": 0.0989,
+        "p_qualify": 0.8679
       },
       {
         "team": "Iran",
-        "p_1st": 0.2673,
+        "p_1st": 0.2639,
         "p_2nd": 0.2601,
-        "p_3rd": 0.2856,
-        "p_4th": 0.187,
-        "p_qualify": 0.6916
+        "p_3rd": 0.2881,
+        "p_4th": 0.1879,
+        "p_qualify": 0.6874
       },
       {
         "team": "Egypt",
-        "p_1st": 0.1792,
-        "p_2nd": 0.2897,
-        "p_3rd": 0.2696,
-        "p_4th": 0.2615,
-        "p_qualify": 0.6818
+        "p_1st": 0.1761,
+        "p_2nd": 0.2965,
+        "p_3rd": 0.2629,
+        "p_4th": 0.2646,
+        "p_qualify": 0.6779
       },
       {
         "team": "New Zealand",
-        "p_1st": 0.0978,
-        "p_2nd": 0.1889,
-        "p_3rd": 0.2617,
-        "p_4th": 0.4516,
-        "p_qualify": 0.417
+        "p_1st": 0.0986,
+        "p_2nd": 0.1864,
+        "p_3rd": 0.2663,
+        "p_4th": 0.4487,
+        "p_qualify": 0.4172
       }
     ],
     "H": [
       {
         "team": "Spain",
-        "p_1st": 0.6896,
-        "p_2nd": 0.1993,
-        "p_3rd": 0.0923,
+        "p_1st": 0.6923,
+        "p_2nd": 0.1984,
+        "p_3rd": 0.0904,
         "p_4th": 0.0188,
-        "p_qualify": 0.9641
+        "p_qualify": 0.9657
       },
       {
         "team": "Uruguay",
-        "p_1st": 0.2176,
-        "p_2nd": 0.3637,
-        "p_3rd": 0.3021,
-        "p_4th": 0.1166,
-        "p_qualify": 0.7955
+        "p_1st": 0.213,
+        "p_2nd": 0.3632,
+        "p_3rd": 0.3026,
+        "p_4th": 0.1212,
+        "p_qualify": 0.7908
       },
       {
         "team": "Saudi Arabia",
-        "p_1st": 0.05,
-        "p_2nd": 0.218,
-        "p_3rd": 0.3332,
-        "p_4th": 0.3987,
-        "p_qualify": 0.4773
+        "p_1st": 0.0508,
+        "p_2nd": 0.2168,
+        "p_3rd": 0.3329,
+        "p_4th": 0.3995,
+        "p_qualify": 0.4741
       },
       {
         "team": "Cape Verde",
-        "p_1st": 0.0427,
-        "p_2nd": 0.219,
-        "p_3rd": 0.2724,
-        "p_4th": 0.4659,
-        "p_qualify": 0.4415
+        "p_1st": 0.0438,
+        "p_2nd": 0.2216,
+        "p_3rd": 0.2741,
+        "p_4th": 0.4605,
+        "p_qualify": 0.4449
       }
     ],
     "I": [
       {
         "team": "France",
-        "p_1st": 0.737,
-        "p_2nd": 0.2369,
-        "p_3rd": 0.0244,
+        "p_1st": 0.7355,
+        "p_2nd": 0.2382,
+        "p_3rd": 0.0246,
         "p_4th": 0.0016,
-        "p_qualify": 0.9971
+        "p_qualify": 0.9972
       },
       {
         "team": "Norway",
-        "p_1st": 0.2476,
-        "p_2nd": 0.5199,
-        "p_3rd": 0.227,
-        "p_4th": 0.0055,
-        "p_qualify": 0.9731
+        "p_1st": 0.2487,
+        "p_2nd": 0.5171,
+        "p_3rd": 0.2287,
+        "p_4th": 0.0056,
+        "p_qualify": 0.9757
       },
       {
         "team": "Senegal",
-        "p_1st": 0.0134,
-        "p_2nd": 0.2262,
-        "p_3rd": 0.5622,
-        "p_4th": 0.1982,
-        "p_qualify": 0.603
+        "p_1st": 0.014,
+        "p_2nd": 0.2281,
+        "p_3rd": 0.5601,
+        "p_4th": 0.1977,
+        "p_qualify": 0.6068
       },
       {
         "team": "Iraq",
-        "p_1st": 0.002,
-        "p_2nd": 0.017,
-        "p_3rd": 0.1863,
-        "p_4th": 0.7947,
-        "p_qualify": 0.1083
+        "p_1st": 0.0019,
+        "p_2nd": 0.0166,
+        "p_3rd": 0.1866,
+        "p_4th": 0.795,
+        "p_qualify": 0.1077
       }
     ],
     "J": [
       {
         "team": "Argentina",
-        "p_1st": 0.8779,
-        "p_2nd": 0.1141,
-        "p_3rd": 0.0075,
+        "p_1st": 0.8773,
+        "p_2nd": 0.1148,
+        "p_3rd": 0.0073,
         "p_4th": 0.0005,
         "p_qualify": 0.9994
       },
       {
         "team": "Austria",
         "p_1st": 0.1126,
-        "p_2nd": 0.5997,
-        "p_3rd": 0.2769,
-        "p_4th": 0.0108,
-        "p_qualify": 0.9311
+        "p_2nd": 0.5958,
+        "p_3rd": 0.28,
+        "p_4th": 0.0115,
+        "p_qualify": 0.9359
       },
       {
         "team": "Algeria",
-        "p_1st": 0.0083,
-        "p_2nd": 0.2638,
-        "p_3rd": 0.471,
-        "p_4th": 0.257,
-        "p_qualify": 0.5666
+        "p_1st": 0.0088,
+        "p_2nd": 0.2661,
+        "p_3rd": 0.4681,
+        "p_4th": 0.2569,
+        "p_qualify": 0.567
       },
       {
         "team": "Jordan",
-        "p_1st": 0.0011,
-        "p_2nd": 0.0225,
-        "p_3rd": 0.2446,
-        "p_4th": 0.7318,
-        "p_qualify": 0.1386
+        "p_1st": 0.0012,
+        "p_2nd": 0.0233,
+        "p_3rd": 0.2445,
+        "p_4th": 0.731,
+        "p_qualify": 0.1419
       }
     ],
     "K": [
       {
         "team": "Colombia",
-        "p_1st": 0.6877,
-        "p_2nd": 0.2511,
-        "p_3rd": 0.0533,
-        "p_4th": 0.008,
-        "p_qualify": 0.987
+        "p_1st": 0.6878,
+        "p_2nd": 0.2518,
+        "p_3rd": 0.0518,
+        "p_4th": 0.0086,
+        "p_qualify": 0.9875
       },
       {
         "team": "Portugal",
-        "p_1st": 0.2634,
-        "p_2nd": 0.4614,
-        "p_3rd": 0.2001,
-        "p_4th": 0.0752,
-        "p_qualify": 0.8473
+        "p_1st": 0.2649,
+        "p_2nd": 0.4606,
+        "p_3rd": 0.2025,
+        "p_4th": 0.072,
+        "p_qualify": 0.8471
       },
       {
         "team": "DR Congo",
-        "p_1st": 0.0336,
-        "p_2nd": 0.1639,
-        "p_3rd": 0.3823,
-        "p_4th": 0.4203,
-        "p_qualify": 0.4133
+        "p_1st": 0.0327,
+        "p_2nd": 0.1636,
+        "p_3rd": 0.3796,
+        "p_4th": 0.424,
+        "p_qualify": 0.4117
       },
       {
         "team": "Uzbekistan",
-        "p_1st": 0.0153,
-        "p_2nd": 0.1237,
-        "p_3rd": 0.3644,
-        "p_4th": 0.4966,
-        "p_qualify": 0.3616
+        "p_1st": 0.0146,
+        "p_2nd": 0.124,
+        "p_3rd": 0.3661,
+        "p_4th": 0.4954,
+        "p_qualify": 0.3673
       }
     ],
     "L": [
       {
         "team": "England",
-        "p_1st": 0.9333,
-        "p_2nd": 0.0556,
-        "p_3rd": 0.0097,
-        "p_4th": 0.0014,
-        "p_qualify": 0.9983
+        "p_1st": 0.9337,
+        "p_2nd": 0.0548,
+        "p_3rd": 0.0102,
+        "p_4th": 0.0013,
+        "p_qualify": 0.9984
       },
       {
         "team": "Croatia",
-        "p_1st": 0.0325,
-        "p_2nd": 0.6265,
-        "p_3rd": 0.2132,
-        "p_4th": 0.1279,
-        "p_qualify": 0.8075
+        "p_1st": 0.0314,
+        "p_2nd": 0.6312,
+        "p_3rd": 0.2104,
+        "p_4th": 0.127,
+        "p_qualify": 0.8104
       },
       {
         "team": "Ghana",
-        "p_1st": 0.0262,
-        "p_2nd": 0.2347,
-        "p_3rd": 0.6364,
-        "p_4th": 0.1027,
-        "p_qualify": 0.6656
+        "p_1st": 0.0272,
+        "p_2nd": 0.2324,
+        "p_3rd": 0.6399,
+        "p_4th": 0.1005,
+        "p_qualify": 0.6705
       },
       {
         "team": "Panama",
-        "p_1st": 0.008,
-        "p_2nd": 0.0832,
-        "p_3rd": 0.1408,
-        "p_4th": 0.7681,
-        "p_qualify": 0.1857
+        "p_1st": 0.0076,
+        "p_2nd": 0.0816,
+        "p_3rd": 0.1396,
+        "p_4th": 0.7712,
+        "p_qualify": 0.1852
       }
     ]
   }
