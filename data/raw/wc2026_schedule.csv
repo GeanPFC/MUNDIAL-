@@ -35,10 +35,10 @@ G33,group,F,2026-06-20,Houston,United States,Netherlands,Sweden,True,5,1,played
 G34,group,F,2026-06-20,Guadalupe,Mexico,Tunisia,Japan,True,0,4,played
 G35,group,E,2026-06-20,Toronto,Canada,Germany,Ivory Coast,True,2,1,played
 G36,group,E,2026-06-20,Kansas City,United States,Ecuador,Curaçao,True,0,0,played
-G37,group,G,2026-06-21,Inglewood,United States,Belgium,Iran,True,,,scheduled
-G38,group,G,2026-06-21,Vancouver,Canada,New Zealand,Egypt,True,,,scheduled
-G39,group,H,2026-06-21,Atlanta,United States,Spain,Saudi Arabia,True,,,scheduled
-G40,group,H,2026-06-21,Miami Gardens,United States,Uruguay,Cape Verde,True,,,scheduled
+G37,group,G,2026-06-21,Inglewood,United States,Belgium,Iran,True,0,0,played
+G38,group,G,2026-06-21,Vancouver,Canada,New Zealand,Egypt,True,1,3,played
+G39,group,H,2026-06-21,Atlanta,United States,Spain,Saudi Arabia,True,4,0,played
+G40,group,H,2026-06-21,Miami Gardens,United States,Uruguay,Cape Verde,True,2,2,played
 G41,group,I,2026-06-22,Philadelphia,United States,France,Iraq,True,,,scheduled
 G42,group,I,2026-06-22,East Rutherford,United States,Norway,Senegal,True,,,scheduled
 G43,group,J,2026-06-22,Arlington,United States,Argentina,Austria,True,,,scheduled
