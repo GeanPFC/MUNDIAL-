@@ -25,8 +25,8 @@ G23,group,L,2026-06-17,Arlington,United States,England,Croatia,True,4,2,played
 G24,group,L,2026-06-17,Toronto,Canada,Ghana,Panama,True,1,0,played
 G25,group,B,2026-06-18,Vancouver,Canada,Canada,Qatar,False,6,0,played
 G26,group,B,2026-06-18,Inglewood,United States,Switzerland,Bosnia and Herzegovina,True,4,1,played
-G27,group,A,2026-06-18,Zapopan,Mexico,Mexico,South Korea,False,1,0,played
-G28,group,A,2026-06-18,Atlanta,United States,Czech Republic,South Africa,True,1,1,played
+G27,group,A,2026-06-18,Atlanta,United States,Czech Republic,South Africa,True,1,1,played
+G28,group,A,2026-06-18,Zapopan,Mexico,Mexico,South Korea,False,1,0,played
 G29,group,C,2026-06-19,Foxborough,United States,Scotland,Morocco,True,0,1,played
 G30,group,C,2026-06-19,Philadelphia,United States,Brazil,Haiti,True,3,0,played
 G31,group,D,2026-06-19,Seattle,United States,United States,Australia,False,2,0,played
@@ -35,10 +35,10 @@ G33,group,E,2026-06-20,Toronto,Canada,Germany,Ivory Coast,True,2,1,played
 G34,group,E,2026-06-20,Kansas City,United States,Ecuador,Curaçao,True,0,0,played
 G35,group,F,2026-06-20,Houston,United States,Netherlands,Sweden,True,5,1,played
 G36,group,F,2026-06-20,Guadalupe,Mexico,Tunisia,Japan,True,0,4,played
-G37,group,H,2026-06-21,Miami Gardens,United States,Uruguay,Cape Verde,True,2,2,played
-G38,group,H,2026-06-21,Atlanta,United States,Spain,Saudi Arabia,True,4,0,played
-G39,group,G,2026-06-21,Inglewood,United States,Belgium,Iran,True,0,0,played
-G40,group,G,2026-06-21,Vancouver,Canada,New Zealand,Egypt,True,1,3,played
+G37,group,H,2026-06-21,Atlanta,United States,Spain,Saudi Arabia,True,4,0,played
+G38,group,H,2026-06-21,Miami Gardens,United States,Uruguay,Cape Verde,True,2,2,played
+G39,group,G,2026-06-21,Vancouver,Canada,New Zealand,Egypt,True,1,3,played
+G40,group,G,2026-06-21,Inglewood,United States,Belgium,Iran,True,0,0,played
 G41,group,I,2026-06-22,Philadelphia,United States,France,Iraq,True,3,0,played
 G42,group,I,2026-06-22,East Rutherford,United States,Norway,Senegal,True,3,2,played
 G43,group,J,2026-06-22,Arlington,United States,Argentina,Austria,True,2,0,played
@@ -47,11 +47,11 @@ G45,group,K,2026-06-23,Houston,United States,Portugal,Uzbekistan,True,5,0,played
 G46,group,K,2026-06-23,Zapopan,Mexico,Colombia,DR Congo,True,1,0,played
 G47,group,L,2026-06-23,Foxborough,United States,England,Ghana,True,0,0,played
 G48,group,L,2026-06-23,Toronto,Canada,Panama,Croatia,True,0,1,played
-G49,group,C,2026-06-24,Miami Gardens,United States,Scotland,Brazil,True,0,3,played
-G50,group,C,2026-06-24,Atlanta,United States,Morocco,Haiti,True,4,2,played
+G49,group,C,2026-06-24,Atlanta,United States,Morocco,Haiti,True,4,2,played
+G50,group,C,2026-06-24,Miami Gardens,United States,Scotland,Brazil,True,0,3,played
 G51,group,B,2026-06-24,Seattle,United States,Bosnia and Herzegovina,Qatar,True,3,1,played
-G52,group,A,2026-06-24,Guadalupe,Mexico,South Africa,South Korea,True,1,0,played
-G53,group,B,2026-06-24,Vancouver,Canada,Canada,Switzerland,False,1,2,played
+G52,group,B,2026-06-24,Vancouver,Canada,Canada,Switzerland,False,1,2,played
+G53,group,A,2026-06-24,Guadalupe,Mexico,South Africa,South Korea,True,1,0,played
 G54,group,A,2026-06-24,Mexico City,Mexico,Mexico,Czech Republic,False,3,0,played
 G55,group,D,2026-06-25,Inglewood,United States,United States,Turkey,False,2,3,played
 G56,group,D,2026-06-25,Santa Clara,United States,Paraguay,Australia,True,0,0,played
@@ -60,11 +60,11 @@ G58,group,E,2026-06-25,East Rutherford,United States,Ecuador,Germany,True,2,1,pl
 G59,group,F,2026-06-25,Arlington,United States,Japan,Sweden,True,1,1,played
 G60,group,F,2026-06-25,Kansas City,United States,Tunisia,Netherlands,True,1,3,played
 G61,group,I,2026-06-26,Toronto,Canada,Senegal,Iraq,True,5,0,played
-G62,group,I,2026-06-26,Foxborough,United States,Norway,France,True,1,4,played
-G63,group,H,2026-06-26,Zapopan,Mexico,Uruguay,Spain,True,0,1,played
-G64,group,H,2026-06-26,Houston,United States,Cape Verde,Saudi Arabia,True,0,0,played
-G65,group,G,2026-06-26,Vancouver,Canada,New Zealand,Belgium,True,1,5,played
-G66,group,G,2026-06-26,Seattle,United States,Egypt,Iran,True,1,1,played
+G62,group,H,2026-06-26,Zapopan,Mexico,Uruguay,Spain,True,0,1,played
+G63,group,I,2026-06-26,Foxborough,United States,Norway,France,True,1,4,played
+G64,group,G,2026-06-26,Vancouver,Canada,New Zealand,Belgium,True,1,5,played
+G65,group,G,2026-06-26,Seattle,United States,Egypt,Iran,True,1,1,played
+G66,group,H,2026-06-26,Houston,United States,Cape Verde,Saudi Arabia,True,0,0,played
 G67,group,J,2026-06-27,Kansas City,United States,Algeria,Austria,True,3,3,played
 G68,group,J,2026-06-27,Arlington,United States,Jordan,Argentina,True,1,3,played
 G69,group,K,2026-06-27,Miami Gardens,United States,Colombia,Portugal,True,0,0,played
