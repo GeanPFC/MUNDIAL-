@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-24T19:59:24.011239+00:00",
-  "as_of": "2026-11-24",
+  "generated_at_utc": "2026-11-25T19:02:09.423803+00:00",
+  "as_of": "2026-11-25",
   "n_simulations": 50000,
   "model": "elo_live_v3",
   "matches_played": 72,
